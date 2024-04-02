@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         btnGenerate.setOnClickListener {
 
             when(etAge.toString().toInt()){
-                67 -> tvResult.text = "You have the same age as Leonardo da Vinci"
+                67 -> tvResult.text = "You have the same age as Leonardo da Vinci "
                 39 -> tvResult.text = "You have the same age as Cleopatra VII"
                 32 -> tvResult.text = "You have the same age as Alexander the Great"
                 56 -> tvResult.text = "You have the same age as Abraham Lincoln"
